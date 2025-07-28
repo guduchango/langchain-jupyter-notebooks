@@ -1,0 +1,29 @@
+# LangChain core
+langchain>=0.0.190
+langchain-community>=0.0.34
+langchain-huggingface
+langchain-chroma
+langchain-ollama
+
+# LLMs y embeddings
+sentence-transformers>=2.2.2
+huggingface-hub>=0.16.4
+tiktoken
+
+# Vector DB
+chromadb>=0.4.22
+
+# Carga y parsing de documentos
+pypdf
+unstructured[md]  # Para Markdown, puedes quitar [md] si no lo usás
+
+# Widgets y entorno Jupyter
+ipywidgets
+jupyterlab
+
+# Otros útiles
+duckduckgo-search>=4.5
+sympy>=1.12
+tqdm>=4.66
+pydantic>=2.0
+requests

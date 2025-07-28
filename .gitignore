@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# VSCode config
+.vscode/
+
+# Python cache and logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# macOS system files
+.DS_Store
+
+# Output files
+*.out
+*.pdf
+*.csv
+*.tsv
+*.db
+
+# LangChain / Chroma vector store (usually persisted here)
+data/chroma_db/
+**/chroma_db/
+
+# Ollama model cache (adjust if needed)
+.ollama/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# Environment variables or sensitive config
+.env
+.env.*
+
+# Generated images or diagrams
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Notebook runtime files
+*.ipynb~ 
+*.nbconvert.ipynb
+
+# Custom folders you don’t want in Git
+__results__/
+__outputs__/
